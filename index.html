@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Technology Conference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/styles.min.css"
+    />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="headerWrapper">
+      <header id="top">
+        <div class="logo">
+          <img
+            src="logo1x.png"
+            srcset="
+              images/logo3x.png 3x,
+              images/logo2x.png 2x,
+              images/logo1x.png 1x
+            "
+            alt="Your logo"
+          />
+        </div>
+        <span>Maconference</span>
+        <div id="hamburgerBtn">
+          <span class="top"></span>
+          <span class="bottom"></span>
+        </div>
+      </header>
+    </div>
+    <!-- end header wrapper -->
+
+    <div id="navWrapper">
+      <nav>
+        <ul id="primaryNav">
+          <li><a href="#">Schedule</a></li>
+          <li><a href="#">Partners</a></li>
+          <li class="active"><a href="#">Events</a></li>
+          <li><a href="#">Join Us</a></li>
+          <li><a href="#">Workers</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- end nav wrapper -->
+
+    <div id="mainWrapper">
+      <main>
+        <div class="hero">
+          <video autoplay muted playsinline loop width="800" height="300">
+            <source src="/media/hero-video-hb.webm" type="video/webm" />
+            <source src="/media/hero-video-hb.mp4" type="video/mp4" />
+          </video>
+          <div>
+            <h3>Speaker Series is Coming!</h3>
+            <p>The best conference in town.</p>
+          </div>
+        </div>
+        <h1>Three Great Speakers</h1>
+        <p>
+          Dr. Amy Carter, an Innovation Specialist, excels at transforming
+          visionary ideas into impactful action, guiding organizations to push
+          the boundaries of innovation and turn creative concepts into
+          real-world solutions. Michael Lee, a skilled UX Researcher, uncovers
+          valuable user insights that drive design, crafting experiences that
+          resonate deeply and address user needs. Finally, Sophia Martinez, a
+          Project Manager, is an expert in turning vision into reality through
+          strategic planning, leading teams to execute projects from concept to
+          completion with precision, ensuring every detail is executed smoothly.
+        </p>
+        <section class="speakers">
+          <h2>Our Featured Speakers</h2>
+          <div class="speakers-container">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/speaker1.webp" alt="Speaker 1" />
+                </div>
+                <div class="flip-card-back">
+                  <h3>Dr. Amy Carter</h3>
+                  <p>Innovation Specialist</p>
+                  <p>Transforming ideas into action.</p>
+                </div>
+              </div>
+            </div>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/speaker2.webp" alt="Speaker 2" />
+                </div>
+                <div class="flip-card-back">
+                  <h3>Michael Lee</h3>
+                  <p>UX Researcher</p>
+                  <p>Turning user insights into impactful designs.</p>
+                </div>
+              </div>
+            </div>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/speaker3.webp" alt="Speaker 3" />
+                </div>
+                <div class="flip-card-back">
+                  <h3>Sophia Martinez</h3>
+                  <p>Project Manager</p>
+                  <p>Turning vision into reality through strategic planning.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <!-- end main wrapper -->
+
+    <div id="footerWrapper">
+      <footer>
+        <p>Copyright &copy; 2025 Maconference Inc. All rights reserved.</p>
+      </footer>
+    </div>
+    <!-- end footer wrapper -->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
